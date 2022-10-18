@@ -3,7 +3,7 @@
     <h5 class="twc-buttons-title" v-if="buttonsTitle">{{ buttonsTitle }}</h5>
     <a
         role="button"
-        :tabindex="replySent || isExpired ? -1 : 0"
+        :tabindex="0"
         v-for="(button, idx) in buttonitems"
         :key="idx"
         class="twc-btn"
